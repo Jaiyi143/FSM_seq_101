@@ -18,7 +18,7 @@ input clk_in;
 output reg clk_out=1'b0;
 output reg clk_led=1'b0;
 
-//1s clock @50MHz
+//3s clock @50MHz
 parameter integer TICKS_3S = 150_000_000;// no. of ticks per 3s
 reg [27:0]tick_cnt = 28'b0;// count 0...149_999_999
 always@(posedge clk_in)begin

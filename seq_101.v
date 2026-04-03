@@ -74,7 +74,7 @@ always @(pre)begin
                state = S2;
           end
      S3: begin 
-               out = 0;
+               out = 1;
                state = S3;
           end
 	  default: begin 
