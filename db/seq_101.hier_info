@@ -1,5 +1,5 @@
 |seq_101
-out <= <GND>
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
 state[0] <= state.DB_MAX_OUTPUT_PORT_TYPE
 state[1] <= state.DB_MAX_OUTPUT_PORT_TYPE
 clk_led <= clk_div:div.clk_led
