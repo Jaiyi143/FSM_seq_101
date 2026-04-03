@@ -19,7 +19,11 @@
 #
 # Quartus Prime
 # Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+<<<<<<< Updated upstream
 # Date created = 22:52:08  March 31, 2026
+=======
+# Date created = 18:42:21  April 03, 2026
+>>>>>>> Stashed changes
 #
 # -------------------------------------------------------------------------- #
 #
@@ -37,6 +41,7 @@
 # -------------------------------------------------------------------------- #
 
 
+<<<<<<< Updated upstream
 set_global_assignment -name FAMILY "MAX II"
 set_global_assignment -name DEVICE EPM240T100C5
 set_global_assignment -name TOP_LEVEL_ENTITY seq_101
@@ -50,3 +55,13 @@ set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_location_assignment PIN_12 -to clk_50
+=======
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY seq_101
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:42:21  APRIL 03, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+>>>>>>> Stashed changes
