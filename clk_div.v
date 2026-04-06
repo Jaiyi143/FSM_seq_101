@@ -20,15 +20,15 @@ output reg clk_led=1'b0;
 
 //3s clock @50MHz
 parameter integer TICKS_1.5S = 75_000_000;// no. of ticks per 1.5s
-reg [27:0]tick_cnt = 28'b0;// count 0...74_999_999
+reg [26:0]tick_cnt = 27'b0;// count 0...74_999_999
 always@(posedge clk_in)begin
   if(tick_cnt==TICKS_1.5-1)begin
 	clk_out <= ~clk_out;
 	clk_led <= ~clk_led;
-	tick_cnt <= 28'b0;
+	tick_cnt <= 27'b0;
 end
  else
-   tick_cnt <= tick_cnt + 28'b1;
+   tick_cnt <= tick_cnt + 27'b1;
 	end
 
 
